@@ -1,3 +1,8 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap);
 
 * {
@@ -16,7 +21,5 @@ html, body {
     scroll-behavior: smooth;
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 
