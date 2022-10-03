@@ -1,9 +1,11 @@
 import React from 'react';
 import { Route, Routes } from "react-router-dom"
+import {AnimatePresence } from "framer-motion"
 import { CreateContainer, Header, MainContainer } from './components';
 
 const App = () => {
   return (
+    <AnimatePresence>
     <div className='w-screen h-auto flex flex-col bg-primary'>
         <Header />
 
@@ -16,6 +18,7 @@ const App = () => {
             
         </main>
     </div>
+    </AnimatePresence>
 
   );
   
